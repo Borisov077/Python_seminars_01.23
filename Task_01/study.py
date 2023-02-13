@@ -81,3 +81,20 @@
 # print(text[0:len(text):6]) # сеикакл
 # print(text[::6]) # сеикакл
 # text = text[2:9] + text[-5] + text[:2] # ...
+
+# до 13 включительно – детство;
+# от 14 до 24 – молодость;
+# от 25 до 59 – зрелость;
+# от 60 – старость.
+a = int(input())
+# b = int(input())
+# c = int(input())
+# d = int(input())
+a = int(input())
+
+if (a <= 0 & a >= 13):
+    print('Ltncndj')
+
+
+else:
+    print("B")
