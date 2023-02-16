@@ -86,15 +86,77 @@
 # от 14 до 24 – молодость;
 # от 25 до 59 – зрелость;
 # от 60 – старость.
-a = int(input())
+# a = int(input())
 # b = int(input())
 # c = int(input())
 # d = int(input())
-a = int(input())
 
-if (a <= 0 & a >= 13):
-    print('Ltncndj')
+# a = int(input())
+# b = int(input())
+# c = int(input())
+
+# if a == 2 or b > 2:
+#     print("true")
 
 
+# if 6 <= c and a > 3:
+#     print("true")
+
+# if 1 != b and c != 3:
+#     print("true")
+# if a >= -1 or a <= b:
+#     print("true")
+# if not (a > 2):
+#     print("true")
+# if not (c <= 10):
+#     print("true")
+# else:
+#     print("f")
+
+# if a >= 0 and a <= 13:
+#     print('детство')
+# elif a >= 14 and a <= 24:
+#     print('молодость')
+# elif a >= 25 and a <= 59:
+#     print('зрелость')
+# else:
+#     print("старость")
+
+# num1 = 34
+# num2 = 81
+# if num1 // 9 == 0 or num2 % 9 == 0:
+#     print('число', num1, 'выиграло')
+# else:
+#     print('число', num2, 'выиграло')
+n = int(input())
+if 1000 < n > 100 and (n % 7 == 0 or n % 17 == 0):
+    print("Принадлежит")
 else:
-    print("B")
+    print('Не принадлежит')
+
+
+# def sum_rec(first_number, second_number):
+#     if first_number == 0:
+#         return second_number
+#     return sum_rec(first_number-1, second_number+1)
+
+
+# # результат записываем во второе число рекурсивно отнимая в первом числе 1 и добавляя ее во второе число.
+# # как только первое число станет 0 сработает условие выхода из рекурсии
+# a, b = 22, 10
+# print(sum_rec(a, b))
+
+
+# def sumNum(a, b):
+#     if a == 0 or b == 0:
+#         if a > b:
+#             return a
+#         return b
+#     elif (b == 1):
+#         return a + 1
+#     return sumNum(a+1, b-1)
+
+
+# num_1 = int(input('Input first Positive! number: '))
+# num_2 = int(input('Input second Positive! number: '))
+# print(f'{num_1} + {num_2} = {sumNum(num_1, num_2)}')

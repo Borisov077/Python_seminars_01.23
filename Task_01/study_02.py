@@ -23,3 +23,28 @@
 # print(list_1)  # [12, 7, -1]
 # print(list_1.pop())  # -1
 # print(list_1)  # [12, 7]
+
+# word = 'Python'
+
+# for letter in word:
+#     print(letter)
+
+# print()
+# for i in (0, 1, 2, 3, 4, 5):
+#     print(word[i])
+
+# print()
+# print(range(len(word)))
+# print(list(range(len(word))))
+# for i in range(len(word)):
+#     print(word[i])
+
+
+def fact(num):
+    if num == 1:
+        return 1
+    else:
+        return num*fact(num-1)
+
+
+print(fact(5))
