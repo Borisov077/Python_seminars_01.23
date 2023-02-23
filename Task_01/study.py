@@ -128,11 +128,11 @@
 #     print('число', num1, 'выиграло')
 # else:
 #     print('число', num2, 'выиграло')
-n = int(input())
-if 1000 < n > 100 and (n % 7 == 0 or n % 17 == 0):
-    print("Принадлежит")
-else:
-    print('Не принадлежит')
+# n = int(input())
+# if 1000 < n > 100 and (n % 7 == 0 or n % 17 == 0):
+#     print("Принадлежит")
+# else:
+#     print('Не принадлежит')
 
 
 # def sum_rec(first_number, second_number):
@@ -160,3 +160,17 @@ else:
 # num_1 = int(input('Input first Positive! number: '))
 # num_2 = int(input('Input second Positive! number: '))
 # print(f'{num_1} + {num_2} = {sumNum(num_1, num_2)}')
+
+# Год является високосным, если его номер кратен 4, но не кратен 100, или если он кратен 400.
+# но только на 1 клетку.
+
+a = int(input())
+b = int(input())
+c = int(input())
+max = 0
+min = 0
+second = 0
+if a < b:
+    a = max
+elif max > c:
+    c = max
